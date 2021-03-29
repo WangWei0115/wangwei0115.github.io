@@ -1,7 +1,7 @@
 title: Welcome To Wang Wei's Homepage
 description: To Be a Happy Econometrican.
-author: Wei Wang
-avatar: /logo.png
+author: Wang Wei 
+avatar: /logo.jpg
 email: wangwei_0115@outlook.com
 
 plugins:
@@ -30,9 +30,9 @@ exclude:
 # Jekyll SEO Tag (Optional)
 # =========================
 twitter:
-  username: ngzhio
+  username: Wang Wei
   card: summary
-logo: logo.png
+logo: logo.jpg
 social:
   name: Wang Wei
   links:
