@@ -4,8 +4,8 @@
   url: /years/
 - title: Teaching
   url: /categories/
-- title: Tags
-  url: Blogs
+- title: Blogs
+  url: /tags/
 - title: More
   sublinks:
     - title: FAQ
