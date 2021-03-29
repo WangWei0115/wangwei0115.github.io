@@ -1,11 +1,11 @@
 - title: About
   url: /about/
-- title: Years
+- title: Research
   url: /years/
-- title: Categories
+- title: Teaching
   url: /categories/
 - title: Tags
-  url: /tags/
+  url: Blogs
 - title: More
   sublinks:
     - title: FAQ
