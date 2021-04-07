@@ -1,6 +1,6 @@
 ---
 layout: archive-taxonomies
-type: tags
+type: Blogs
 title: Blogs
-permalink: /tags/
+permalink: /Blogs/
 ---
