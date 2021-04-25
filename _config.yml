@@ -3,7 +3,7 @@ description: To Be a Happy Econometrican.
 author: Wang Wei 
 avatar: /logo.jpg
 email: wangwei_0115@outlook.com
-
+highlighter: rouge
 plugins:
   - jekyll-seo-tag
   - jekyll-feed
