@@ -1,43 +1,70 @@
-title: Welcome To Wang Wei's Homepage
-description: To Be a Happy Econometrican.
-author: Wang Wei 
-avatar: /logo.jpg
-email: wangwei_0115@outlook.com
+title: Jason Ansel
+#tagline:          A short tagline
+#description:      Describe your website.
+#Comment out url when working locally to resolve base urls correctly
+url: https://jasonansel.com
+
+# Owner/author information
+owner:
+  name:           Jason Ansel
+  avatar:         jasonansel.jpg
+#  bio:
+  email:          jasonansel@jasonansel.com
+  # Social networking links are used in author-bio sidebar. Update and remove as you like.
+  twitter:
+  facebook:
+  github: jansel
+  linkedin: jansel
+  scholar: https://scholar.google.com/citations?user=jDNYtP0AAAAJ
+  instagram:
+  lastfm:
+  tumblr:
+  # For Google Authorship https://plus.google.com/authorship
+  google_plus:
+
+# Analytics and webmaster tools stuff goes here
+google_verify: "JW0gdx05xcJSQe6saaq67u_U1vgdfuh8OxrjS-fEuyQ"
+# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+bing_verify:
+
+# Links to include in top navigation
+# For external links add external: true
+links:
+  - title: About Me
+    url: /
+  - title: Projects
+    url: /projects/
+  - title: Publications
+    url: /publications/
+  - title: Hobbies
+    url: /hobbies/
+
+# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: America/New_York
+future: true
 highlighter: rouge
-plugins:
-  - jekyll-seo-tag
-  - jekyll-feed
-  - jekyll-sitemap
-  - jekyll-paginate
+# markdown: kramdown
+# markdown: redcarpet
+# pygments: true
 
-paginate: 10
+# https://github.com/mojombo/jekyll/wiki/Permalinks
+permalink:   /:categories/:title
 
-# Uncomment the below line and set the tracking ID for enabling Google Analytics
-# 
-# google_analytics: 
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  enable_coderay: false
 
-# Uncomment the below lines and set the Disqus shortname for enabling Disqus
-# 
-# disqus:
+  # coderay:
+  #   coderay_line_numbers:
+  #   coderay_line_numbers_start: 1
+  #   coderay_tab_width: 4
+  #   coderay_bold_every: 10
+  #   coderay_css: class
 
-# Jekyll
-# ======
-exclude:
-  - scripts/
-  - README.md
-  - jekyll-theme-hamilton.gemspec
+include: [".htaccess"]
+exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "minimal-mistakes.sublime-project", "minimal-mistakes.sublime-workspace"]
 
-# Jekyll SEO Tag (Optional)
-# =========================
-twitter:
-  username: Wang Wei
-  card: summary
-logo: logo.jpg
-social:
-  name: Wang Wei
-  links:
-    - https://twitter.com/WangWei
-    - https://www.facebook.com/WangWei
-    - https://github.com/WangWei0115
-google_site_verification: u4WXQl0Eu66rsQo2kRdCNx
-lang: en
+
