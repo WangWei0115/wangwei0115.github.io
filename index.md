@@ -3,13 +3,9 @@ layout: page
 ---
 
 # About Me
-My name is Wang Wei.  
+I am Wang Wei, PhD Candidate in Shandong University, majoring in econometric theory and applications and would like to be an outstanding Econometrican! 
 
-Iam PhD Candidate in Shandong University, majoring in econometric theory and applications.
-
-I would like to be an Econometrican! 
-
-# Interests
+## Interests
 - Panel Data Model
 
 - Network Data Model
