@@ -1,4 +1,4 @@
-title: WANG WEI
+title: Wang Wei
 #tagline:          A short tagline
 #description:      Describe your website.
 #Comment out url when working locally to resolve base urls correctly
@@ -6,7 +6,7 @@ url: https://wangwei0115.github.io/
 
 # Owner/author information
 owner:
-  name:           WANG WEI
+  name:           Wang Wei
   avatar:         WANGWEI.jpg
 #  bio:
   email:          wangwei_0115@outlook.com
@@ -34,10 +34,10 @@ links:
     url: /
   - title: Projects
     url: /projects/
-  - title: Publications
-    url: /publications/
-  - title: Hobbies
-    url: /hobbies/
+  - title: Research
+    url: /research/
+  - title: Blogs
+    url: /blogs/
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone: America/New_York
