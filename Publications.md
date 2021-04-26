@@ -21,18 +21,17 @@ pubs:
 ---
 
 
-
 {% for pub in page.pubs %}
 {% unless pub.hidden %}
   - {% if pub.url %} [{{pub.title}}]({{pub.url}}).
     {% else %} {{pub.title}}.
     {% endif %}.
-    {{pub.author}}.
-    {{pub.booktitle}}{{pub.school}}{{pub.journal}}.<br>
+    {{pub.author}}{{pub.journal}}.<br>
     {{pub.month}}, {{pub.year}}. {% if pub.slides %}[Slides]({{pub.slides}}).
     {% endif %}{% if pub.key %}[Bibtex](http://groups.csail.mit.edu/commit/bibtex.cgi?key={{pub.key}}).
     {% endif %}{% if pub.bibtex %}[Bibtex]({{pub.bibtex}}).
     {% endif %}
 {% endunless %}
 {% endfor %}
+
 
