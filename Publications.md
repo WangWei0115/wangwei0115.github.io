@@ -21,6 +21,6 @@ pubs:
     {{pub.month}}, {{pub.year}}.<br> {% if pub.code %}[Code]({{pub.code}}).
     {% endif %}
 {% endunless %}
-{% endfor %}}
+{% endfor %}
 
 
