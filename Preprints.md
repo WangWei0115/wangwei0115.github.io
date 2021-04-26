@@ -4,21 +4,17 @@ permalink: /preprints/index.html
 title: Preprints
 ---
 
-
 pres:
-  - key: "ansel:pldi:2011"
-    title: "Language-Independent Sandboxing of Just-In-Time Compilation, Self-Modifying Code"
-    author: "Jason Ansel"
-    month: "Jun"
-    year: "2011"
-    url: "http://groups.csail.mit.edu/commit/papers/2011/ansel-pldi11-nacljit.pdf"
+  - key: "Biintegration"
+    title: "A Bi-integrative analysis of two-dimensional heterogeneous panel data models with group and cohort structure recovery"
+    author: "Wei Wang, Zhijie Xiao, Yanyan Ren, Xiaodong Yan"
+    month: "Jan"
+    year: "2021"
 
-  - title: Adaptive Checkpointing for Master-Worker Style Parallelism
-    author: "Gene Cooperman, Jason Ansel, Xiaoqin Ma"
-    month: Sep
-    year: 2005
-    url: 2005cluster.pdf
-    bibtex: 2005cluster.bib
+  - title: "Nonstationary Heterogeneous Panels with Structural Breaks"
+    author: "Qu Feng, Wei Wang"
+    month: April
+    year: 2021
 ---
 
 {% for pre in page.pres %}
@@ -27,9 +23,5 @@ pres:
     {% else %} {{pre.title}}.
     {% endif %}.
     {{pre.author}}{{pre.journal}}.<br>
-    {{pre.month}}, {{pre.year}}. {% if pre.slides %}[Slides]({{pre.slides}}).
-    {% endif %}{% if pre.key %}[Bibtex](http://groups.csail.mit.edu/commit/bibtex.cgi?key={{pre.key}}).
-    {% endif %}{% if pre.bibtex %}[Bibtex]({{pre.bibtex}}).
-    {% endif %}
-{% endunless %}
+    {{pre.month}}, {{pre.year}}. 
 {% endfor %}
