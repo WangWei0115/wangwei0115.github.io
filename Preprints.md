@@ -5,12 +5,11 @@ title: Preprints
 ---
 
 pres:
-  - key: "Biintegration"
-    title: "A Bi-integrative analysis of two-dimensional heterogeneous panel data models with group and cohort structure recovery"
+  - title: "A Bi-integrative analysis of two-dimensional heterogeneous panel data models with group and cohort   
+    structure recovery"
     author: "Wei Wang, Zhijie Xiao, Yanyan Ren, Xiaodong Yan"
     month: "Jan"
     year: "2021"
-
   - title: "Nonstationary Heterogeneous Panels with Structural Breaks"
     author: "Qu Feng, Wei Wang"
     month: April
