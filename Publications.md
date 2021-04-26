@@ -4,7 +4,7 @@ permalink: /publications/index.html
 title: Publications
 
 pubs:
-  - author: "Yan, X, Wang, H, Wang, et al."
+  - author: "Yan, X, Wang, H, Wang W, et al."
     title: "Optimal model averaging forecasting in high-dimensional survival analysis"
     journal: "International Journal of Forecasting"
     month: "Jan"
