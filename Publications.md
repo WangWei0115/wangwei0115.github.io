@@ -9,6 +9,7 @@ pubs:
     journal: "International Journal of Forecasting"
     month: "Jan"
     year: "2021"
+    url: "https://www.sciencedirect.com/science/article/abs/pii/S0169207020301904"
  
 ---
 
@@ -17,7 +18,7 @@ pubs:
 {% unless pub.hidden %}
   - {% if pub.url %} [{{pub.title}}]({{pub.url}}).
     {% else %} {{pub.title}}.{% endif %}
-    {{pub.journal}}{{pub.author}}.<br> {% if pub.code %}[Code]({{pub.code}}).
+    {{pub.journal}}.{{pub.month}},{{pub.year}}.{{pub.author}}.<br> {% if pub.code %}[Code]({{pub.code}}).
     {% endif %}{% if pub.supplement %}[Code]({{pub.supplement}}).
     {% endif %}
     
