@@ -1,7 +1,7 @@
 ---
 layout: page
-permalink: /publications/index.html
-title: Publications
+permalink: /research/index.html
+title: research
 
 pubs:
   - author: "Yan, X, Wang, H, Wang W, et al."
@@ -12,6 +12,7 @@ pubs:
     url: "https://www.sciencedirect.com/science/article/abs/pii/S0169207020301904"
  
 ---
+# Publications 
 
 {% for pub in page.pubs %}
 {% unless pub.hidden %}
@@ -30,3 +31,8 @@ pubs:
 {% endfor %}
 
 
+# Working Papers
+
+- Wang W., Xiao Z., Ren Y., Yan X., 2021, "A Bi-integrative analysis of two-dimensional heterogeneous panel data models with group and group and cohort structure recovery"
+    
+- Feng Q., Wang W., 2021, "Nonstationary Heterogeneous Panels with Structural Breaks"
