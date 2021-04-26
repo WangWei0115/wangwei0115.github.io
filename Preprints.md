@@ -5,8 +5,7 @@ title: Preprints
 ---
 
 pres:
-  - title: "A Bi-integrative analysis of two-dimensional heterogeneous panel data models with group and cohort   
-    structure recovery"
+  - title: "A Bi-integrative analysis of two-dimensional heterogeneous panel data models with"
     author: "Wei Wang, Zhijie Xiao, Yanyan Ren, Xiaodong Yan"
     month: "Jan"
     year: "2021"
