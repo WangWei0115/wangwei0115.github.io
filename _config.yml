@@ -32,8 +32,8 @@ bing_verify:
 links:
   - title: About Me
     url: /
-  - title: Preprints
-    url: /preprints/
+  - title: learn
+    url: /learn/
   - title: Research
     url: /research/
   - title: Blogs
