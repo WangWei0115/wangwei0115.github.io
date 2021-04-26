@@ -8,10 +8,6 @@ pubs:
     title: "Optimal model averaging forecasting in high-dimensional survival analysis"
     month: "Jan"
     year: "2021"
-  - author: "Yan, X, Wang, H, Wang, W, Xie, J, Ren, Y, & Wang, X"
-    title: "Optimal model averaging forecasting in high-dimensional survival analysis"
-    month: "Jan"
-    year: "2021"
  
 ---
 
