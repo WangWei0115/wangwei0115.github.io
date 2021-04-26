@@ -16,15 +16,11 @@ pubs:
 
 {% for pub in page.pubs %}
 {% unless pub.hidden %}
-  - {% if pub.url %} [{{pub.title}}]({{pub.url}}).
-    {% else %} {{pub.title}}.
-    {% endif %}{% if pub.type %}({{pub.type}})
-    {% endif %}{{pub.journal}}.
+  - {% if pub.url %} [{{pub.title}}]({{pub.url}}).{% else %} {{pub.title}}.{% endif %}
+    {{pub.journal}}.
     {{pub.author}}.
-    {% if pub.type == 'Technical Report' %}{{pub.number}}
-    {% endif %}{{pub.booktitle}}{{pub.school}}.
-    {% if pub.address %}{{pub.address}}.
-    {% endif %} {{pub.month}}, {{pub.year}}.
+    {{pub.month}},
+    {{pub.year}}.
     {% if pub.code %}[Code]({{pub.code}}).{% endif %}
     {% if pub.supplement %}[Supplement]({{pub.supplement}}).{% endif %}
 {% endunless %}
