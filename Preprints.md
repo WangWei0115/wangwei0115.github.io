@@ -4,7 +4,8 @@ permalink: /preprints/index.html
 title: Preprints
 ---
 
-pubs:
+
+pres:
   - key: "ansel:pldi:2011"
     title: "Language-Independent Sandboxing of Just-In-Time Compilation, Self-Modifying Code"
     author: "Jason Ansel"
@@ -20,15 +21,15 @@ pubs:
     bibtex: 2005cluster.bib
 ---
 
-{% for pub in page.pubs %}
-{% unless pub.hidden %}
-  - {% if pub.url %} [{{pub.title}}]({{pub.url}}).
-    {% else %} {{pub.title}}.
+{% for pre in page.pres %}
+{% unless pre.hidden %}
+  - {% if pre.url %} [{{pre.title}}]({{pre.url}}).
+    {% else %} {{pre.title}}.
     {% endif %}.
-    {{pub.author}}{{pub.journal}}.<br>
-    {{pub.month}}, {{pub.year}}. {% if pub.slides %}[Slides]({{pub.slides}}).
-    {% endif %}{% if pub.key %}[Bibtex](http://groups.csail.mit.edu/commit/bibtex.cgi?key={{pub.key}}).
-    {% endif %}{% if pub.bibtex %}[Bibtex]({{pub.bibtex}}).
+    {{pre.author}}{{pre.journal}}.<br>
+    {{pre.month}}, {{pre.year}}. {% if pre.slides %}[Slides]({{pre.slides}}).
+    {% endif %}{% if pre.key %}[Bibtex](http://groups.csail.mit.edu/commit/bibtex.cgi?key={{pre.key}}).
+    {% endif %}{% if pre.bibtex %}[Bibtex]({{pre.bibtex}}).
     {% endif %}
 {% endunless %}
 {% endfor %}
