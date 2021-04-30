@@ -29,6 +29,11 @@ pubs:
 
 # Working Papers
 
-- Wang W., Xiao Z., Ren Y., Yan X., 2021, "A Bi-integrative analysis of two-dimensional heterogeneous panel data models with group and group and cohort structure recovery"
+- Wang W., Xiao Z., Ren Y., Yan X., 2021, "A Bi-integrative analysis of two-dimensional heterogeneous panel data models with group and group and cohort structure recovery". Submitted
     
 - Feng Q., Wang W., 2021, "Nonstationary Heterogeneous Panels with Structural Breaks"
+
+
+# Working In Progress
+
+- Conflict of Interest Between Decision Teams and Manager of Mutual Fund in China
